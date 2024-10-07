@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfcece;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+.recipe-card {
+    background-color: #ffffff;
+    border: 1px solid #313131;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.details div {
+    background-color: #cac9c9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #353434;
+}
+
+.ingredients button {
+    color:#333;
+}
+
+.ingredients, .instructions {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ingredients h2, .instructions h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ingredients ul, .instructions ol {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.ingredients ul li, .instructions ol li {
+    margin-bottom: 8px;
+}
+
+/* Hidden elements */
+.hidden {
+    display: none;
+}
+
+/* Highlighted steps */
+.highlighted {
+    background-color: #ffeb3b;
+    padding: 5px;
+    border-radius: 5px;
+}
