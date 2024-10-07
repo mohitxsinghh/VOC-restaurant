@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Card - Chocolate Cake</title>
+    <link rel="stylesheet" href="chocolate_cake_style.css">
+</head>
+<body>
+    <div class="recipe-card">
+         <div class="header">
+            <h1 style="text-align: center;"><span style="font-size: 30px; font-family: Georgia, serif;">Chocolate Cake</span></h1>
+            <img style="text-align: center;" src="chocolate cake.jpg" alt="Chocolate Cake">
+        </div>
+            
+        <div class="details">
+            <div><strong>Preparation Time:</strong> 1 hr 45 mins</div>
+            <div><strong>Serving Size:</strong> 12-16 servings</div>
+        </div>
+
+        <button id="toggle-ingredients">Show Ingredients</button>
+        <div id="ingredients" class="ingredients hidden">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 and ¾ cups (220g) all-purpose flour</li>
+                <li>¾ cup (65g) unsweetened cocoa powder</li>
+                <li>1 and ½ teaspoons baking powder</li>
+                <li>1 and ½ teaspoons baking soda</li>
+                <li>1 teaspoon salt</li>
+                <li>2 cups (400g) granulated sugar</li>
+                <li>2 large eggs</li>
+                <li>1 cup (240ml) whole milk</li>
+                <li>½ cup (120ml) vegetable oil</li>
+                <li>2 teaspoons vanilla extract</li>
+                <li>1 cup (240ml) boiling water (or hot coffee for extra richness)</li>
+                <li>½ cup (120ml) sour cream or yogurt (optional, for moistness)</li>
+                <li>Frosting (optional): Chocolate buttercream, whipped cream, or ganache</li>
+            </ul>
+        </div>
+
+        <button id="toggle-instructions">Show Instructions</button>
+        <div id="instructions" class="instructions hidden">
+            <h2>Instructions</h2>
+            <ol>
+            <li>Preheat the oven to 350°F (175°C). Grease and flour two 9-inch round cake pans or line them with parchment paper.</li>
+            <li>In a large bowl, sift together the flour, cocoa powder, baking powder, baking soda, and salt.</li>
+            <li>In another bowl, whisk together the sugar, eggs, milk, oil, and vanilla extract until smooth.</li>
+            <li>Slowly add the dry ingredients to the wet mixture, stirring until just combined. Be careful not to overmix.</li>
+            <li>Stir in the boiling water or hot coffee to the batter. The batter will be thin, but that’s okay! It makes the cake moist.</li>
+            <li>If using, fold in the sour cream or yogurt to add extra moisture.</li>
+            <li>Divide the batter evenly between the prepared pans. Bake for 30-35 minutes or until a toothpick inserted in the center comes out clean.</li>
+            <li>Allow the cakes to cool in the pans for about 10 minutes, then transfer them to a wire rack to cool completely.</li>
+            <li>Once the cakes are completely cool, frost with your choice of chocolate buttercream, ganache, or any preferred frosting.</li>
+            </ol>
+            <button id="start-cooking">Start Cooking</button>
+            <button id="next-step" class="hidden">Next Step</button> 
+        </div>
+    </div>
+    
+         <div class="details">
+             <h2>Preparation Time and Serving Size</h2>
+             <span><strong>Active Prep Time:</strong> 15-20 minutes</span>
+             <span><strong>Baking Time:</strong> 30-35 minutes</span>
+             <span><strong>Cooling Time:</strong> 20-30 minutes</span>
+             <span><strong>Total Time:</strong> Approximately 1 hour 30 minutes</span>
+             <span><strong>Serving Size:</strong> 12-16 slices</span>
+        </div>
+
+    <script src="chocolate_script.js"></script>
+
+</body>
+</html>
