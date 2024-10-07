@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Card - Special Pizza </title>
+    <link rel="stylesheet" href="special_pizza.css">
+</head>
+<body>
+    <div class="recipe-card">
+         <div class="header">
+            <h1 style="text-align: center;"><span style="font-size: 30px; font-family: Georgia, serif;">Special Pizza</span></h1>
+            <img style="text-align: center;" src="specialpizza.jpg" alt="Special_pizza">
+        </div>
+            
+        <div class="details">
+            <div><strong>Preparation Time:</strong> 1 hr 45 mins</div>
+            <div><strong>Serving Size:</strong> 2 mediam pizzas</div>
+        </div>
+
+        <button id="toggle-ingredients">Show Ingredients</button>
+        <div id="ingredients" class="ingredients hidden">
+            <h2>Ingredients List</h2>
+
+            <h3>For the Dough:</h3>
+            <ul>
+                <li>3 cups (375g) all-purpose flour</li>
+                <li>1 tablespoon sugar</li>
+                <li>1 tablespoon olive oil</li>
+                <li>1 teaspoon salt</li>
+                <li>2 ¼ teaspoons active dry yeast</li>
+                <li>1 cup (240ml) warm water (110°F/45°C)</li>
+            </ul>
+
+            <h3>For the Pizza Sauce:</h3>
+            <ul>
+                <li>1 cup (240g) tomato sauce or crushed tomatoes</li>
+                <li>1 tablespoon olive oil</li>
+                <li>2 garlic cloves, minced</li>
+                <li>1 teaspoon dried oregano</li>
+                <li>1 teaspoon dried basil</li>
+                <li>Salt and pepper to taste</li>
+            </ul>
+
+            <h3>For the Toppings:</h3>
+            <ul>
+                <li>2 cups (200g) mozzarella cheese, shredded</li>
+                <li>1 cup (150g) pepperoni slices</li>
+                <li>½ cup (75g) black olives, sliced</li>
+                <li>1 small green bell pepper, sliced</li>
+                <li>½ cup (75g) mushrooms, sliced</li>
+                <li>1 small red onion, thinly sliced</li>
+                <li>Fresh basil leaves (optional)</li>
+            </ul>
+        </div>
+
+        <button id="toggle-instructions">Show Instructions</button>
+        <div id="instructions" class="instructions hidden">
+            <h2>Step-by-Step Instructions</h2>
+            <ol>
+            <li><strong>Prepare the Pizza Dough:</strong> In a small bowl, combine warm water, sugar, and yeast. Let it sit for 5-10 minutes until frothy. In a large mixing bowl, combine flour and salt. Add the yeast mixture and olive oil. Stir until a dough forms. Knead on a floured surface for 8-10 minutes. Let it rise for 1-1.5 hours.</li>
+            <li><strong>Prepare the Pizza Sauce:</strong> In a small saucepan, heat olive oil. Sauté garlic, then add tomato sauce, oregano, basil, salt, and pepper. Simmer for 10-15 minutes and set aside.</li>
+            <li><strong>Preheat the Oven:</strong> Preheat the oven to 475°F (245°C) with a pizza stone or baking sheet inside.</li>
+            <li><strong>Assemble the Pizza:</strong> Roll out the dough, spread sauce, add cheese, and layer the toppings.</li>
+            <li><strong>Bake the Pizza:</strong> Bake the pizza for 10-12 minutes until the crust is golden and the cheese is melted and bubbly.</li>
+            <li><strong>Serving:</strong> Slice and serve hot, garnished with fresh basil if desired.</li>
+            <button id="start-cooking">Start Cooking</button>
+            <button id="next-step" class="hidden">Next Step</button>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="details">
+        <h2>Preparation Time and Serving Size</h2>
+        <span><strong>Dough Rising Time:</strong> 1-1.5 hours</span>
+        <span><strong>Active Cooking Time:</strong> 30-35 minutes</span>
+        <span><strong>Total Time:</strong> 1 hour 45 minutes to 2 hours</span>
+        <span><strong>Serving Size:</strong> 2 medium pizzas (3-4 people)</span>
+    </div>
+
+    <script src="special_pizza.js"></script>
+
+</body>
+</html>
